@@ -1,0 +1,407 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEEDEC;
+}
+header{
+    background-color: #F86F03;
+}
+
+/*--menu--*/
+.menu{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-between;
+    top: 5px;
+    position: absolute;
+    left: 150Px;  
+}
+ul{
+    list-style-type:none;
+    display: flex;
+}
+.item_de_menu{
+    padding: 40px;
+    color: #FFF6F4;
+    text-transform: uppercase;
+}
+.item_de_menu :hover{
+  background-color:  #FFF6F4;
+  color: #F86F03;
+  border-radius: 45px;
+  width: 10%;
+  height: 5%;
+}
+
+/*---logo--*/
+.logo{
+    width: 115px;
+    height: 145px;
+    background-color:#F86F03;
+    border-radius: 100%;
+}
+
+/*----bucador--*/
+.buscador{
+    position: absolute;
+    padding: 5px;
+    left: 950px;
+    top: 70px;
+}
+.buscador input{
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px ;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.50s ease;
+}
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #F86F03;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color:#EEEDEC;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.buscador:hover input{
+    width: 240px;
+}
+.buscador input:focus{
+    width: 240px;
+}
+
+/* ---- section video ---*/
+.cont-principal{
+    width: 100%;
+    
+}
+.video{
+    width: 100%;
+    border-radius: 45px;
+    border-color: #540375;
+    opacity: 0.8;
+    overflow: hidden;
+
+}
+
+.conte{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 110%;
+    text-align: center;
+    font-weight: 500;
+    color: #FFF6F4;
+    font-size: 35px;
+}
+.titulo_vid{
+    font-size: 45px;
+    color: #EEEDEC;
+    position: absolute;
+    margin: 20px;
+    top: 35%;
+    left: 20px;
+}
+.boton_vid{
+    top: 123%;
+    position: absolute;
+    margin-left: 600px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    color: #FFF6F4;
+    background-color: orange;
+}
+.bot :hover{
+    background-color: #FFF6F4;
+    color: orange;
+}
+
+/*----- section div-----*/
+.tipos{
+    margin: 20px;
+    padding: 10px;
+   width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+.tipo_e{
+    padding: 10px;
+    width: 250px;
+    height: 290px;
+    border-radius: 15px;
+}
+.sub{
+    padding: 5px;
+    margin: 0px;
+    font-size: 25px;
+    color: black;
+    align-items: center;
+}
+
+.conte_tipos_agua :hover{
+    background-color: #FFF6F4;
+    color: #362FD9;
+    border-radius: 25px;
+}
+.conte_tipos_fuego :hover{
+    background-color: #FFF6F4;
+ color: #BB2525;
+ border-radius: 25px;
+}
+.conte_tipos_electric :hover{
+    background-color: #FFF6F4;
+ color: orange;
+ border-radius: 25px;
+}
+.conte_tipos_planta :hover{
+    background-color: #FFF6F4;
+color: #618264;
+border-radius: 25px;
+}
+
+.rayita{
+    border: none;
+}
+
+/*--------section tera-----------*/
+.coco{
+    position: absolute;
+    top: 235%;
+    font-weight: 500px;
+    margin-left: 75px;
+    width:48%;
+}
+.tera_titu{
+    
+    font-size: 55px;
+    color: orange;
+    position: absolute;
+    margin-left: 65px;
+    top: 210%;
+    background-color: #540375;
+    border-radius: 20px;
+    height: 450px;
+}
+.tera_cont{
+    font-size: 30px;
+    font-weight: 400px;
+    color: #FFF6F4;
+    margin: 30px;
+    overflow: hidden; 
+
+}
+.tera{
+    width: 550px;
+    height: 550px;
+    margin-left: 750px;
+    position: relative;
+    border-radius: 35px;
+}
+
+
+
+/*------------------------------------------------------------Parte de Rafa---------------*/
+.fondo {
+    padding: 0px;
+    width: 100%;
+}
+.color-fondo {
+    background-color: orange;
+    height: 500px;
+}
+.fondo-segundo {
+    background-color: #EEEDEC;
+}
+.fondo-tercero {
+    background-color: #393F60;
+}
+.personaje {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    align-content: center;
+}
+
+.titulo-descripcion {
+    color:white;
+   margin-left: 150px;
+    text-align: left;
+    text-transform: initial;
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo-descripcion-texto {
+    color:black;
+    margin-top: 60px;
+    margin-bottom: 400px;
+    text-transform: initial;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.descripcion {
+    color:white;
+    text-transform: initial;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 200px;
+    height: 50%px;
+    width: 30%;
+}
+
+.descripcion-texto {
+    color:grey;
+    text-transform: initial;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.formulario-texto {
+    color:black;
+    text-transform: initial;
+    font-size: 20px;
+    font-weight: bold;
+    width:100%;
+    height: 555px;
+    
+}
+
+.puntos {
+    list-style: none;
+}
+
+.boton {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 450px;
+}
+
+.botoncito {
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    padding: 10px 20px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 980px;
+}
+
+.botoncito-otro {
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.profesor {
+    height: 350px;
+    width: 350px;
+    top: 425%;
+    left: 60%;
+    position: absolute;
+}
+
+.espacio {
+    line-height: 0;
+}
+
+.contenedor-imagen {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.imagen-circular {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background-color: orange;
+    border-radius: 50%;
+    top: 500%;
+}
+.imagen-arriba{
+     top: 110px;
+}
+.imagen-abajo{
+    top: 250px;
+    left: 400px;
+}
+
+  .contenedor-texto  {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    
+  }
+  .contenedor-texto-form {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 500%;
+    margin-left: 400px;
+    
+  }
+  .contenedor-texto li {
+    display: block; /* Esto hace que los elementos <p> se muestren uno debajo del otro */
+    margin-bottom: 10px; /* Esto agrega un espacio entre los elementos para mejorar la legibilidad */
+  }
+
+  .gancho {
+    color: red;
+    font-size: 25px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #131928;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+}
